@@ -1,37 +1,38 @@
-﻿# Core data science packages
-numpy==1.23.5
-pandas==1.5.3
-scipy==1.10.1
-matplotlib==3.7.1
-seaborn==0.12.2
-plotly==5.14.1
+﻿@'
+# Core data science packages (compatible with each other)
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.11.4
+matplotlib==3.8.2
+seaborn==0.13.0
+plotly==5.18.0
 
 # Financial data and analysis
-yfinance==0.2.28
+yfinance==0.2.37
 pyportfolioopt==1.5.6
 quantstats==0.0.62
 
 # Machine Learning
-scikit-learn==1.2.2
-tensorflow==2.13.0
+scikit-learn==1.3.2
+tensorflow==2.13.1
 keras==2.13.1
 pmdarima==2.0.4
-statsmodels==0.14.0
+statsmodels==0.14.1
 
 # Jupyter and utilities
 jupyter==1.0.0
 notebook==6.5.4
-ipython==8.14.0
+ipython==8.18.0
 
 # Testing and development
-pytest==7.4.0
+pytest==7.4.3
 pytest-cov==4.1.0
-pytest-mock==3.11.1
-black==23.3.0
-flake8==6.0.0
-mypy==1.4.1
+pytest-mock==3.12.0
+black==23.12.0
+flake8==6.1.0
 
 # Utilities
 python-dotenv==1.0.0
-tqdm==4.65.0
-joblib==1.3.1
+tqdm==4.66.1
+joblib==1.3.2
+'@ | Out-File -FilePath "requirements.txt" -Encoding utf8
